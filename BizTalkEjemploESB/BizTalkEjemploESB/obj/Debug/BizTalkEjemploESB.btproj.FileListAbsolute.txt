@@ -4,3 +4,9 @@ c:\users\lucass\documents\visual studio 2015\Projects\BizTalkEjemploESB\BizTalkE
 c:\users\lucass\documents\visual studio 2015\Projects\BizTalkEjemploESB\BizTalkEjemploESB\obj\Debug\BizTalkEjemploESB.pdb
 c:\users\lucass\documents\visual studio 2015\Projects\BizTalkEjemploESB\BizTalkEjemploESB\bin\Debug\Microsoft.Practices.ESB.Itinerary.PipelineComponents.dll
 c:\users\lucass\documents\visual studio 2015\Projects\BizTalkEjemploESB\BizTalkEjemploESB\bin\Debug\Microsoft.Practices.ESB.PipelineComponents.dll
+C:\Users\lucass\Documents\Git\BiztalkESB\BizTalkEjemploESB\BizTalkEjemploESB\bin\Debug\BizTalkEjemploESB.dll
+C:\Users\lucass\Documents\Git\BiztalkESB\BizTalkEjemploESB\BizTalkEjemploESB\bin\Debug\BizTalkEjemploESB.pdb
+C:\Users\lucass\Documents\Git\BiztalkESB\BizTalkEjemploESB\BizTalkEjemploESB\bin\Debug\Microsoft.Practices.ESB.Itinerary.PipelineComponents.dll
+C:\Users\lucass\Documents\Git\BiztalkESB\BizTalkEjemploESB\BizTalkEjemploESB\bin\Debug\Microsoft.Practices.ESB.PipelineComponents.dll
+C:\Users\lucass\Documents\Git\BiztalkESB\BizTalkEjemploESB\BizTalkEjemploESB\obj\Debug\BizTalkEjemploESB.dll
+C:\Users\lucass\Documents\Git\BiztalkESB\BizTalkEjemploESB\BizTalkEjemploESB\obj\Debug\BizTalkEjemploESB.pdb

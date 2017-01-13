@@ -48,14 +48,14 @@
         <itineraryServiceShapeMoniker Id="0d67444b-0949-45e6-acce-aa06f234784a" />
       </nodes>
     </connector>
-    <connector Id="4d64609c-c3b8-4dea-9647-b1c59c9e154c" edgePoints="[(5.5 : 2.32669108072917); (5.5 : 3.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <connector Id="4d64609c-c3b8-4dea-9647-b1c59c9e154c" edgePoints="[(5.5 : 2.32669108072917); (5.5 : 3.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <itineraryServiceReferencesTargetItineraryServiceMoniker Id="62683a93-33d4-45c2-aafd-21b1d53b2a13" />
       <nodes>
         <itineraryServiceShapeMoniker Id="0d67444b-0949-45e6-acce-aa06f234784a" />
         <itineraryServiceShapeMoniker Id="424a4636-b344-426b-81c2-627ea4703d04" />
       </nodes>
     </connector>
-    <connector Id="ca0ca632-951c-4e0e-8141-5c6c1a6c56c6" edgePoints="[(4.5 : 3.75469482421875); (4 : 3.75469482421875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <connector Id="ca0ca632-951c-4e0e-8141-5c6c1a6c56c6" edgePoints="[(4.5 : 3.75469482421875); (4 : 3.75469482421875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <requestReferencedByOffRampMoniker Id="0afa69ab-8d11-49f9-80ad-ce454fd3925b" />
       <nodes>
         <itineraryServiceShapeMoniker Id="424a4636-b344-426b-81c2-627ea4703d04" />
