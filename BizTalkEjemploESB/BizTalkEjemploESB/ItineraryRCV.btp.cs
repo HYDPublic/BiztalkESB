@@ -49,7 +49,7 @@ namespace BizTalkEjemploESB
 "ID=\"4\" Name=\"ResolveParty\" minOccurs=\"0\" maxOccurs=\"-1\" execMethod=\"All\" stageId=\"9d0e410e-4cce-4536"+
 "-83fa-4a5040674ad6\" />      <Components />    </Stage>  </Stages></Document>";
         
-        private const string _versionDependentGuid = "d6ba5791-e072-4df6-86c9-477a1c6ccdf1";
+        private const string _versionDependentGuid = "fe6adac8-ec7f-4864-83e3-6ee7d2ff30c7";
         
         public ItineraryRCV()
         {
