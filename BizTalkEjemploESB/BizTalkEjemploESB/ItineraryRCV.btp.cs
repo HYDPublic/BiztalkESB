@@ -21,35 +21,35 @@ namespace BizTalkEjemploESB
 "       <Description>Selects itinerary via any resolver. Set up resolver connection string to specify"+
 " itinerary resolution method.</Description>          <Version>2.1</Version>          <Properties>   "+
 "         <Property Name=\"ResolverConnectionString\">              <Value xsi:type=\"xsd:string\">BRE:\\\\"+
-"policy=GetSchemaType;useMsg=true;</Value>            </Property>            <Property Name=\"Itinerar"+
-"yFactKey\">              <Value xsi:type=\"xsd:string\">Reolver.Itinerary</Value>            </Property"+
-">            <Property Name=\"IgnoreErrorKey\">              <Value xsi:type=\"xsd:boolean\">false</Valu"+
-"e>            </Property>            <Property Name=\"ValidateItinerary\">              <Value xsi:typ"+
-"e=\"xsd:boolean\">false</Value>            </Property>          </Properties>          <CachedDisplayN"+
-"ame>ESB Itinerary Selector</CachedDisplayName>          <CachedIsManaged>true</CachedIsManaged>     "+
-"   </Component>      </Components>    </Stage>    <Stage>      <PolicyFileStage _locAttrData=\"Name\" "+
-"_locID=\"2\" Name=\"Disassemble\" minOccurs=\"0\" maxOccurs=\"-1\" execMethod=\"FirstMatch\" stageId=\"9d0e4105"+
-"-4cce-4536-83fa-4a5040674ad6\" />      <Components />    </Stage>    <Stage>      <PolicyFileStage _l"+
-"ocAttrData=\"Name\" _locID=\"3\" Name=\"Validate\" minOccurs=\"0\" maxOccurs=\"-1\" execMethod=\"All\" stageId=\""+
-"9d0e410d-4cce-4536-83fa-4a5040674ad6\" />      <Components>        <Component>          <Name>Microso"+
-"ft.Practices.ESB.PipelineComponents.Dispatcher,Microsoft.Practices.ESB.PipelineComponents, Version=2"+
-".1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</Name>          <ComponentName>ESB Dispatch"+
-"er</ComponentName>          <Description>BizTalk ESB Dispatcher Processes Itinerary, Routing and Tra"+
-"nsform  Requests</Description>          <Version>2.1</Version>          <Properties>            <Pro"+
-"perty Name=\"Enabled\">              <Value xsi:type=\"xsd:boolean\">true</Value>            </Property>"+
-"            <Property Name=\"Endpoint\">              <Value xsi:type=\"xsd:string\" />            </Pro"+
-"perty>            <Property Name=\"MapName\">              <Value xsi:type=\"xsd:string\" />            "+
-"</Property>            <Property Name=\"Validate\">              <Value xsi:type=\"xsd:boolean\">true</V"+
-"alue>            </Property>            <Property Name=\"RoutingServiceName\">              <Value xsi"+
-":type=\"xsd:string\">Microsoft.Practices.ESB.Services.Routing</Value>            </Property>          "+
-"  <Property Name=\"TransformServiceName\">              <Value xsi:type=\"xsd:string\">Microsoft.Practic"+
-"es.ESB.Services.Transform</Value>            </Property>          </Properties>          <CachedDisp"+
-"layName>ESB Dispatcher</CachedDisplayName>          <CachedIsManaged>true</CachedIsManaged>        <"+
-"/Component>      </Components>    </Stage>    <Stage>      <PolicyFileStage _locAttrData=\"Name\" _loc"+
-"ID=\"4\" Name=\"ResolveParty\" minOccurs=\"0\" maxOccurs=\"-1\" execMethod=\"All\" stageId=\"9d0e410e-4cce-4536"+
-"-83fa-4a5040674ad6\" />      <Components />    </Stage>  </Stages></Document>";
+"policy=PruebaItinerario.SelectItinerary;useMsg=true;</Value>            </Property>            <Prop"+
+"erty Name=\"ItineraryFactKey\">              <Value xsi:type=\"xsd:string\">Reolver.Itinerary</Value>   "+
+"         </Property>            <Property Name=\"IgnoreErrorKey\">              <Value xsi:type=\"xsd:b"+
+"oolean\">false</Value>            </Property>            <Property Name=\"ValidateItinerary\">         "+
+"     <Value xsi:type=\"xsd:boolean\">false</Value>            </Property>          </Properties>      "+
+"    <CachedDisplayName>ESB Itinerary Selector</CachedDisplayName>          <CachedIsManaged>true</Ca"+
+"chedIsManaged>        </Component>      </Components>    </Stage>    <Stage>      <PolicyFileStage _"+
+"locAttrData=\"Name\" _locID=\"2\" Name=\"Disassemble\" minOccurs=\"0\" maxOccurs=\"-1\" execMethod=\"FirstMatch"+
+"\" stageId=\"9d0e4105-4cce-4536-83fa-4a5040674ad6\" />      <Components />    </Stage>    <Stage>      "+
+"<PolicyFileStage _locAttrData=\"Name\" _locID=\"3\" Name=\"Validate\" minOccurs=\"0\" maxOccurs=\"-1\" execMet"+
+"hod=\"All\" stageId=\"9d0e410d-4cce-4536-83fa-4a5040674ad6\" />      <Components>        <Component>    "+
+"      <Name>Microsoft.Practices.ESB.PipelineComponents.Dispatcher,Microsoft.Practices.ESB.PipelineCo"+
+"mponents, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</Name>          <Compone"+
+"ntName>ESB Dispatcher</ComponentName>          <Description>BizTalk ESB Dispatcher Processes Itinera"+
+"ry, Routing and Transform  Requests</Description>          <Version>2.1</Version>          <Properti"+
+"es>            <Property Name=\"Enabled\">              <Value xsi:type=\"xsd:boolean\">true</Value>    "+
+"        </Property>            <Property Name=\"Endpoint\">              <Value xsi:type=\"xsd:string\" "+
+"/>            </Property>            <Property Name=\"MapName\">              <Value xsi:type=\"xsd:str"+
+"ing\" />            </Property>            <Property Name=\"Validate\">              <Value xsi:type=\"x"+
+"sd:boolean\">true</Value>            </Property>            <Property Name=\"RoutingServiceName\">     "+
+"         <Value xsi:type=\"xsd:string\">Microsoft.Practices.ESB.Services.Routing</Value>            </"+
+"Property>            <Property Name=\"TransformServiceName\">              <Value xsi:type=\"xsd:string"+
+"\">Microsoft.Practices.ESB.Services.Transform</Value>            </Property>          </Properties>  "+
+"        <CachedDisplayName>ESB Dispatcher</CachedDisplayName>          <CachedIsManaged>true</Cached"+
+"IsManaged>        </Component>      </Components>    </Stage>    <Stage>      <PolicyFileStage _locA"+
+"ttrData=\"Name\" _locID=\"4\" Name=\"ResolveParty\" minOccurs=\"0\" maxOccurs=\"-1\" execMethod=\"All\" stageId="+
+"\"9d0e410e-4cce-4536-83fa-4a5040674ad6\" />      <Components />    </Stage>  </Stages></Document>";
         
-        private const string _versionDependentGuid = "fe6adac8-ec7f-4864-83e3-6ee7d2ff30c7";
+        private const string _versionDependentGuid = "c72020a9-bbe3-4482-a636-e84e31893f7d";
         
         public ItineraryRCV()
         {
@@ -59,11 +59,11 @@ namespace BizTalkEjemploESB
             {
                 string comp0XmlProperties = "<?xml version=\"1.0\" encoding=\"utf-16\"?><PropertyBag xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-inst"+
 "ance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">  <Properties>    <Property Name=\"ResolverConnect"+
-"ionString\">      <Value xsi:type=\"xsd:string\">BRE:\\\\policy=GetSchemaType;useMsg=true;</Value>    </P"+
-"roperty>    <Property Name=\"ItineraryFactKey\">      <Value xsi:type=\"xsd:string\">Reolver.Itinerary</"+
-"Value>    </Property>    <Property Name=\"IgnoreErrorKey\">      <Value xsi:type=\"xsd:boolean\">false</"+
-"Value>    </Property>    <Property Name=\"ValidateItinerary\">      <Value xsi:type=\"xsd:boolean\">fals"+
-"e</Value>    </Property>  </Properties></PropertyBag>";
+"ionString\">      <Value xsi:type=\"xsd:string\">BRE:\\\\policy=PruebaItinerario.SelectItinerary;useMsg=t"+
+"rue;</Value>    </Property>    <Property Name=\"ItineraryFactKey\">      <Value xsi:type=\"xsd:string\">"+
+"Reolver.Itinerary</Value>    </Property>    <Property Name=\"IgnoreErrorKey\">      <Value xsi:type=\"x"+
+"sd:boolean\">false</Value>    </Property>    <Property Name=\"ValidateItinerary\">      <Value xsi:type"+
+"=\"xsd:boolean\">false</Value>    </Property>  </Properties></PropertyBag>";
                 PropertyBag pb = PropertyBag.DeserializeFromXml(comp0XmlProperties);;
                 ((IPersistPropertyBag)(comp0)).Load(pb, 0);
             }
